@@ -96,6 +96,6 @@
       "compatible": "alps,ec11",
       "label": "encoder_3",
       "enabled": true
-    },
+    }
   ]
 }
