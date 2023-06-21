@@ -37,7 +37,7 @@
                    &bt BT_CLR    &bt BT_PRV    &bt BT_NXT        &trans  &trans  &trans  &trans   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW &inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP &inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         light {
