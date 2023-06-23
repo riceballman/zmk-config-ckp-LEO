@@ -30,10 +30,10 @@
 
         raise {
             bindings = <
-      &kp GRAVE    &kp F1           &kp F2           &kp F3           &kp F4           &kp F5           &kp F6           &kp F7           &kp F8           &kp F9    &kp F10    &kp F11          &kp F12      &trans  &kp C_MUTE
-&rgb_ug RGB_TOG    &trans           &kp UP       &bl BL_DEC       &bl BL_INC           &trans           &trans           &trans          &kp INS           &trans  &kp PSCRN   &kp SLCK  &kp PAUSE_BREAK  &bl BL_TOG
-         &trans  &kp LEFT         &kp DOWN        &kp RIGHT           &trans           &trans           &trans           &trans           &trans           &trans   &kp HOME  &kp PG_UP      &bootloader
-     &kp C_PREV     &none  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI     &trans     &trans          &kp END   &kp PG_DN  &kp C_NEXT
+      &kp GRAVE    &kp F1           &kp F2           &kp F3           &kp F4           &kp F5           &kp F6           &kp F7           &kp F8           &kp F9         &kp F10         &kp F11          &kp F12      &trans  &kp C_MUTE
+&rgb_ug RGB_TOG    &trans           &kp UP       &bl BL_DEC       &bl BL_INC           &trans           &trans           &trans          &kp INS           &trans       &kp PSCRN        &kp SLCK  &kp PAUSE_BREAK  &bl BL_TOG
+         &trans  &kp LEFT         &kp DOWN        &kp RIGHT           &trans           &trans           &trans           &trans           &trans           &trans        &kp HOME    &kp UP_ARROW      &bootloader
+     &kp C_PREV     &none  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp PG_DN  &kp C_NEXT
                    &trans       &bt BT_PRV       &bt BT_NXT           &trans           &trans           &trans           &trans           &trans           &trans
             >;
 
