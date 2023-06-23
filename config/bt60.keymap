@@ -25,7 +25,7 @@
                   &kp LCTRL  &kp LGUI  &kp LALT  &kp SPACE  &kp RALT  &kp LEFT  &kp RIGHT  &mt RIGHT_CONTROL RIGHT_ARROW      &none
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP &inc_dec_kp DOWN_ARROW UP_ARROW>;
+            sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW &inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         raise {
@@ -37,7 +37,7 @@
                    &trans       &bt BT_PRV       &bt BT_NXT           &trans           &trans           &trans           &trans           &trans           &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP &inc_dec_kp DOWN_ARROW UP_ARROW>;
+            sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW &inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
     };
 };
